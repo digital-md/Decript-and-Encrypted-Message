@@ -1,7 +1,7 @@
 <h1>Decript an Encrypted Message</h1>
 
 <h2>Description</h2>
-Encryption and decryption can be used to secure information online. By using basic Linux Bash shell commands I will be using Linux commands to decrypt files and reveal a hidden message. 
+Encryption and decryption can be used to secure information online. By using basic Linux Bash shell commands I will be using Linux commands to decrypt files and reveal a hidden message below. 
 
 -	list hidden files,
 -	decrypt one of the earliest algorithms a Caesar cipher, and
@@ -39,7 +39,7 @@ openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrut
 The new file Q1.recovered in the directory listing is the decrypted file and contains a message.
 3.	Use the cat command to list the contents of the Q1.recovered file.
 
-
+![image](https://github.com/digital-md/Decript-and-Encrypted-Message/assets/156498985/84101102-c65e-43f5-8d85-d6550a231eed)
 
 ```
 --!>
